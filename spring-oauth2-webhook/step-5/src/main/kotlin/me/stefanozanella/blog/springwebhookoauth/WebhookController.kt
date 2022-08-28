@@ -8,7 +8,7 @@ import org.springframework.web.reactive.function.client.WebClient
 import org.springframework.web.reactive.function.client.bodyToMono
 
 @RestController
-class WebhooksController {
+class WebhookController {
   @Autowired
   private lateinit var client: WebClient
 
